@@ -186,11 +186,11 @@ set _col=%_Yellow%
 
 echo:           ─▀▀▌───────▐▀▀
 echo:           ─▄▀░◌░░░░░░░▀▄        ◇────────────────────◇
-echo:           ▐░░◌░▄▀██▄█░░░▌        	    IDM 激活脚本
+echo:           ▐░░◌░▄▀██▄█░░░▌             IDM 激活脚本
 echo:           ▐░░░▀████▀▄░░░▌       ◇────────────────────◇
 echo:           ═▀▄▄▄▄▄▄▄▄▄▄▄▀═
 echo:
-call :_color2 %_White% "        " %_Green% "  Create By Piash"           
+call :_color2 %_White% "        " %_Green% "  作者：Piash"           
 echo:          _____________________________________________  
 echo:          
 echo:          [1] 激活 IDM                               
@@ -205,8 +205,9 @@ echo:          [5] 主页
 echo:          [6] 退出                                        
 echo:       ___________________________________________________
 echo:   
-call :_color2 %_White% "        " %_Green% "Enter a menu option in the Keyboard [1,2,3,4,5,6]"
+call :_color2 %_White% "        " %_Green% "请输入键盘上的菜单选项 [1,2,3,4,5,6]"
 choice /C:123456 /N
+
 set _erl=%errorlevel%
 
 if %_erl%==5 exit /b
