@@ -197,7 +197,7 @@ echo:          [1] 激活 IDM
 echo:          [2] 重置 IDM 激活/试用状态
 echo:          _____________________________________________   
 echo:                                                          
-call :_color2 %_White% "          [3] Toggle Windows Firewall  " %_col% "[%_status%]"
+call :_color2 %_White% "          [3] 切换 Windows 防火墙  " %_col% "[%_status%]"
 echo:          _____________________________________________   
 echo:                                                          
 echo:          [4] 说明书                                      
